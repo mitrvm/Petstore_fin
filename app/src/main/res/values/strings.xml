@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Petsore</string>
+    <string name="flowers">Petstore</string>
+    <string name="look">Посмотреть</string>
+    <string name="return_tp">Вернуться</string>
+    <string name="create">Создать</string>
+    <string name="edit">Изменить</string>
+    <string name="delete">Удалить</string>
+    <string name="find">Найти</string>
+    <string name="return_tm">На главный</string>
+    <string name="pets">Питомцы</string>
+    <string name="orders">Заказы</string>
+    <string name="login">Войти</string>
+    <string name="logout">Выйти</string>
+    <string name="save">Сохранить</string>
+    <string name="reg">Зарегистрироваться</string>
+    <string name="regforg">Регистрация | Забыли пароль?</string>
+
+    <string name="clowns">Работа выполенена Клинтуховой Анастасией и Плескачевским Николаем</string>
+</resources>

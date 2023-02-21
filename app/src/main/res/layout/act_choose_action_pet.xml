@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/c1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="260dp"
+        android:layout_height="95dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/pets"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/white"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <Button
+        android:id="@+id/btn_ca_findpet"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="@color/teal_200"
+        android:onClick="onClickToFindPet"
+        android:text="@string/find"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_ca_createpet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_ca_createpet"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="@color/teal_200"
+        android:onClick="onClickToCreatePet"
+        android:text="@string/create"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_ca_changepet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_ca_deletepet"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="184dp"
+        android:backgroundTint="@color/teal_200"
+        android:onClick="onClickToDeletePet"
+        android:text="@string/delete"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_ca_changepet"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="68dp"
+        android:backgroundTint="@color/teal_200"
+        android:onClick="onClickToEditPet"
+        android:text="@string/edit"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_ca_deletepet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/btn_ca_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:onClick="onClickToMain"
+        android:text="@string/return_tm"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ca_deletepet"
+        app:layout_constraintVertical_bias="0.887" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
